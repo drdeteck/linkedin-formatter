@@ -123,18 +123,7 @@ export default function LinkedInStylizer() {
                    <Tooltip>
                     <TooltipTrigger asChild>
                       <Button variant="outline" size="icon" onClick={() => applyTransform(toBoldItalic)} aria-label="Bold Italic">
-                        <svg
-                          className="h-4 w-4"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M13.25 4L8.75 20" />
-                          <path d="M6.25 4h6.5a3.5 3.5 0 0 1 0 7h-6.5a3.5 3.5 0 0 1 0 7h6.5" />
-                        </svg>
+                        <span className="text-sm font-bold italic leading-none tracking-tight">BI</span>
                       </Button>
                     </TooltipTrigger>
                     <TooltipContent>
